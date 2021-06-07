@@ -58,12 +58,44 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/dev/content/shapes.kit": {
+	"/dev/content/svg-container.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/shapes.html",
+		"oAP": "/dev/content/svg-container.html",
+		"oF": 0
+		},
+	"/dev/content/svg/camera-process.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/camera-process.html",
+		"oF": 0
+		},
+	"/dev/content/svg/device-finger-screen.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/device-finger-screen.html",
+		"oF": 0
+		},
+	"/dev/content/svg/logo-screen.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/logo-screen.html",
+		"oF": 0
+		},
+	"/dev/content/svg/spdm-audio-screen.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/svg/spdm-audio-screen.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -89,6 +121,28 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/device-fp.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/device-fp-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/logoDraw.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/logoDraw-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/scripts.js": {
 		"bF": 4,
@@ -231,7 +285,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_shapes.scss": {
+	"/dev/scss/sections/_svg-container.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -239,7 +293,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_shapes.css",
+		"oAP": "/dev/scss/sections/_svg-container.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
