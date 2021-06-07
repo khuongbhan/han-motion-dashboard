@@ -4,8 +4,10 @@
 import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
+import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 
-gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
+
+gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MorphSVGPlugin);
 
 // import
 import { logoDrawTL } from "./logoDraw"
