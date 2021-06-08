@@ -5,12 +5,12 @@ import { gsap } from "gsap";
 
 // import $ from "jquery";
 
-import { GSDevTools } from "gsap/GSDevTools";
+// import { GSDevTools } from "gsap/GSDevTools";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 
 
-gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MorphSVGPlugin);
+gsap.registerPlugin(DrawSVGPlugin, MorphSVGPlugin);
 
 // import
 import { logoDrawTL } from "./logoDraw"
@@ -37,5 +37,5 @@ mainTL.add(screen3TL)
 
 
 
-GSDevTools.create();
+// GSDevTools.create();
 

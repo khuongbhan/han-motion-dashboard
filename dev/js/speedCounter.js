@@ -8,7 +8,7 @@
 // var counterSpeed = 1000;
 
 // // Set this number you want your counter to count up to. Default is 20
-// var topSpeed = 30;
+// var topSpeed = 85;
 
 // // If yu don't want your speed to start at 0, change it here. Default is 0.
 // var speedNumber = 0;
@@ -19,7 +19,7 @@
 
 // 	if (speedNumber < topSpeed) {
 // 		speedNumber++;
-// 		document.getElementById("speed-tag").innerHTML = speedNumber;
+// 		document.getElementById("speedTag").innerHTML = speedNumber;
 // 	} else {
 // 		clearInterval(myVar);
 // 	}

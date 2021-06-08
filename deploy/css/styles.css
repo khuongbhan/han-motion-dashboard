@@ -452,7 +452,7 @@ textarea {
 #speed-counter > div {
   overflow: hidden;
 }
-#speed-counter > div #speed-tag {
+#speed-counter > div #speedTag {
   font-size: 7.5rem;
   color: #fff;
 }
