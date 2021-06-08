@@ -130,6 +130,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/cameraScreen.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/cameraScreen-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/device-fp.js": {
 		"bF": 0,
 		"ft": 64,
@@ -170,17 +181,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/spd-audio-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/speedCounter.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/speedCounter-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

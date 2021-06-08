@@ -11,7 +11,7 @@ gsap.set("#speed-loading",{y:"175px",transformOrigin:"center left"});
 gsap.set("#speed-shape",{x:"479px",y:"439px"});
 gsap.set("#clip-box",{x:"-150",y:"100"});
 gsap.set("#black-rec-4",{x:"320px",y:"140px",scaleY:2,transformOrigin:"bottom right"});
-gsap.set("#identify-modeon",{opacity:0});
+// gsap.set("#identify-modeon",{opacity:0});
 gsap.set(".audio-trig-bottom",{transformOrigin:"bottom center"});
 gsap.set(".audio-trig-top",{transformOrigin:"bottom center"});
 gsap.set("#find-signal",{opacity:0});
@@ -97,7 +97,7 @@ screen3TL
 
 // mode menu
 
-.from("#mode-a",{duration:.25,opacity:0},"scr3Start")
+.from("#mode-a",{duration:.25,opacity:0},"scr3Start1")
 .from("#mode-i",{duration:.5,opacity:0,x:"-=100"},"scr3Start2")
 .from("#mode-z",{duration:.5,opacity:0,x:"+=100"},"scr3Start2")
 .from("#mode-s",{duration:.75,opacity:0,x:"-=200"},"scr3Start2")

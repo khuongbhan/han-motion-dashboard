@@ -13,6 +13,7 @@ gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MorphSVGPlugin);
 import { logoDrawTL } from "./logoDraw"
 import { screen2TL } from "./device-fp"
 import { screen3TL } from "./spd-audio"
+import { screen4TL } from "./cameraScreen"
 ;
 
 
@@ -22,6 +23,7 @@ let mainTL = gsap.timeline();
 mainTL.add(logoDrawTL)
 mainTL.add(screen2TL)
 mainTL.add(screen3TL)
+mainTL.add(screen4TL)
 
 
 
