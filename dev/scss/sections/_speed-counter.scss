@@ -1,0 +1,26 @@
+#speed-counter{
+    overflow: hidden;
+    position: absolute;
+    // border: 1px solid green;
+    height: 30%;
+    width: 100%;
+    top: 60vh;
+    left: 28.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin-top: -200px;
+
+    >div{
+        overflow: hidden;
+		// border: 1px solid blue;
+
+        #speed-tag {
+            font-size: rem-calc(120);
+            // font-kerning: ; 
+            // font-size: 150;
+            // margin-top: -100vh;
+            color: #fff;
+        }
+	}
+}

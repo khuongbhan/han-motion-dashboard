@@ -66,10 +66,10 @@ screen2TL
 .to("#finger-3",{duration: .2, stroke:"#65D8F1"},"-=1.9")
 .to("#finger-4",{duration: .2, stroke:"#65D8F1"},"-=1.7")
 .to("#finger-5",{duration: .2, stroke:"#65D8F1"},"-=1.6")
-.to("#finger-in",{duration:.5, scale: 0, opacity:0, transformOrigin:"center center", rotation:360}, "-=1.3")
+.to("#finger-in",{duration:.5, scale: 0, opacity:0, transformOrigin:"center center", rotation:360}, "-=1")
 
-.fromTo("#finger-text",{opacity: 0},{duration:.2, opacity:1,repeat: 2},"-=0.75")
-.from("#finger-check-circle, #finger-tick", {duration:1,drawSVG:"50% 50%",opacity:0},"-=0.75")
+.fromTo("#finger-text",{opacity: 0},{duration:.2, opacity:1,repeat: 2},"-=0.25")
+.from("#finger-check-circle, #finger-tick", {duration:1,drawSVG:"50% 50%",opacity:0},"-=0.25")
 
 
 

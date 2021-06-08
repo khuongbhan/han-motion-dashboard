@@ -1,4 +1,39 @@
 #svg-container {
+	overflow: hidden;
+	// display: grid;
+	// grid-template-columns: auto 80% auto;
+	// grid-template-areas: ". svg-container .";
+	// height: 100vh;
+	
+
+	// @include md{
+	// 	grid-template-columns: auto 70% auto;
+	// }
+
+	// @include lg{
+	// 	grid-template-columns: auto 60% auto;
+	// }
+
+	// @include xl{
+	// 	grid-template-columns: auto 1200px auto;
+	// }
+	// >div {
+	// 	display: flex;
+	// 	align-items: center;
+		
+	// 	grid-area: svg-container;
+
+	// 	svg{
+	// 		width: 100%;
+
+	// 		#finger-circle {
+	// 			// visibility:hidden;
+	// 			// margin-left: 200px;
+	// 		}
+	// 	}
+	// }
+
+
 	display: grid;
 	grid-template-columns: auto 80% auto;
 	grid-template-areas: ". svg-container .";
@@ -13,22 +48,18 @@
 		grid-template-columns: auto 60% auto;
 	}
 
-	// @include xl{
-	// 	grid-template-columns: auto 1200px auto;
-	// }
-	>div {
-		display: flex;
-		align-items: center;
-		
-		grid-area: svg-container;
+    >div{
+        position: relative;
+        height: 100vh;
+        // border: 1px solid red;
 
-		svg{
-			width: 100%;
-
-			#finger-circle {
-				// visibility:hidden;
-				// margin-left: 200px;
+            grid-area: svg-container;
+        
+			svg {
+				height: 100%;
+				width: 100%;
 			}
-		}
-	}
+    }
+
+
 }
