@@ -439,13 +439,13 @@ textarea {
 }
 
 #speed-counter {
+  display: none;
   overflow: hidden;
   position: absolute;
   height: 30%;
   width: 100%;
   top: 60vh;
   left: 28.5vh;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
