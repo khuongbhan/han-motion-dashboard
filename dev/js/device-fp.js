@@ -60,12 +60,15 @@ screen2TL
 .to("#finger-circle",{duration:.1, opacity:0,repeat: 2},"start32")
 .to("#finger-circle",{opacity:1},"-=3.25")
 
-.from(".fingerprint-lines",{duration:1, drawSVG:0},"startScan")
+.from(".fingerprint-lines",{duration:1, drawSVG:0,opacity:0},"startScan")
 .to("#finger-1",{duration: .2, stroke:"#65D8F1"},"-=2")
 .to("#finger-2",{duration: .2, stroke:"#65D8F1"},"-=1.8")
 .to("#finger-3",{duration: .2, stroke:"#65D8F1"},"-=1.9")
 .to("#finger-4",{duration: .2, stroke:"#65D8F1"},"-=1.7")
 .to("#finger-5",{duration: .2, stroke:"#65D8F1"},"-=1.6")
+
+
+
 .to("#finger-in",{duration:.5, scale: 0, opacity:0, transformOrigin:"center center", rotation:360}, "-=1")
 
 .fromTo("#finger-text",{opacity: 0},{duration:.2, opacity:1,repeat: 2},"-=0.25")

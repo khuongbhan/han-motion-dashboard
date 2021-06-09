@@ -42,7 +42,7 @@ screen4TL
 .to("#mph",{duration:.75,x:"-=13",y:"+=95",scale:0.7,ease:"power2.out"},"click5")
 
 .to("#signal-found",{duration:.25, opacity:0},"click4")
-.to("#audio-graph",{duration:.75, y:"+=260",scale:.5,ease:"power2.out"},"click5")
+.to("#audio-graph",{duration:.75, y:"+=260",scale:.47,ease:"power2.out"},"click5")
 .to("#decibel-text, #hertz-text",{duration:.75,y:"+=80",scale:.8,ease:"power2.out"},"click5")
 
 .from("#cam-load-out",{duration:.75, drawSVG: "30% 30%",ease:"power2.out"},"click5")
