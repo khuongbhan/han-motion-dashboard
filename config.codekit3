@@ -58,14 +58,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/dev/content/speed-counter.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/speed-counter.html",
-		"oF": 0
-		},
 	"/dev/content/svg-container.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -311,19 +303,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/sections/_speed-counter.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_speed-counter.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

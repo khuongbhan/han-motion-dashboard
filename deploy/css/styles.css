@@ -414,45 +414,25 @@ textarea {
 #svg-container {
   overflow: hidden;
   display: grid;
-  grid-template-columns: auto 80% auto;
+  grid-template-columns: 10px auto 10px;
   grid-template-areas: ". svg-container .";
   height: 100vh;
 }
 @media (min-width: 768px) {
   #svg-container {
-    grid-template-columns: auto 70% auto;
+    grid-template-columns: auto 85% auto;
   }
 }
 @media (min-width: 992px) {
   #svg-container {
-    grid-template-columns: auto 60% auto;
+    grid-template-columns: auto 65% auto;
   }
 }
 #svg-container > div {
-  position: relative;
-  height: 100vh;
+  display: flex;
+  align-items: center;
   grid-area: svg-container;
 }
 #svg-container > div svg {
-  height: 100%;
   width: 100%;
-}
-
-#speed-counter {
-  display: none;
-  overflow: hidden;
-  position: absolute;
-  height: 30%;
-  width: 100%;
-  top: 60vh;
-  left: 28.5vh;
-  justify-content: center;
-  align-items: center;
-}
-#speed-counter > div {
-  overflow: hidden;
-}
-#speed-counter > div #speed-tag {
-  font-size: 7.5rem;
-  color: #fff;
 }
