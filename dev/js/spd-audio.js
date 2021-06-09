@@ -17,7 +17,7 @@ gsap.set(".audio-trig-top",{transformOrigin:"bottom center"});
 gsap.set("#find-signal",{opacity:0});
 gsap.set("#black-rec-5",{x:"-80px",y:"250px",transformOrigin:"bottom right"});
 gsap.set("#black-rec-6",{x:"-80px",y:"280px",transformOrigin:"bottom right"});
-
+gsap.set("#mode-audio,#mode-distance,#mode-speed,#mode-identify,#mode-zoom",{opacity:0});
 
 screen3TL
 
@@ -42,8 +42,8 @@ screen3TL
 
 // speedometer
 
-.from("#speedm-out",{duration:.5, drawSVG: "50% 50%",ease:"power2.out"},"spdmStart")
-.from("#speedm-in",{duration:.5, drawSVG: "50% 50%",ease:"power2.out"},"spdmStart")
+.from("#speedm-out",{duration:.5, drawSVG: "50% 50%",opacity:0,ease:"power2.out"},"spdmStart")
+.from("#speedm-in",{duration:.5, drawSVG: "50% 50%",opacity:0,ease:"power2.out"},"spdmStart")
 .to("#black-rec-3",{duration:1.25,scaleX:"0"},"spdmStart")
 // .to("#speed-loading-l",{duration:.2, opacity:0,repeat:4},"spdmStart3")
 // .to("#speed-loading-r",{duration:.2, opacity:0,repeat:4},"spdmStart3")
@@ -104,7 +104,7 @@ screen3TL
 .from("#mode-d",{duration:.75,opacity:0,x:"+=200"},"scr3Start2")
 .from("#audio-modeon, #speed-modeon",{duration:.1,opacity:0},"spdmStart")
 
-.from("#mode-hover-circle",{duration:.5, drawSVG: "0",ease:"power2.out"},"-=3")
+.from("#mode-hover-circle",{duration:.5, drawSVG: "0",opacity:0,ease:"power2.out"},"-=3")
 .from("#mode-audio",{duration:.5, opacity:0},"-=3")
 .to("#mode-hover-circle",{duration:.25, x:"-=118",ease:"power2.out"},"-=2.5")
 .to("#mode-audio",{duration:.25, opacity:0},"-=2.5")

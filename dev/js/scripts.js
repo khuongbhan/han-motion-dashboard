@@ -25,11 +25,11 @@ let mainTL = gsap.timeline();
 mainTL
 .add(logoDrawTL)
 .add(screen2TL)
-.addLabel("marker")
+// .addLabel("marker")
 .add(screen3TL)
 .add(screen4TL)
 
-mainTL.play("marker");
+// mainTL.play("marker");
 
 
 // GSDevTools.create();
