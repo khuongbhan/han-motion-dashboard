@@ -11,6 +11,13 @@ gsap.set("#camera-loading",{transformOrigin: "center center"});
 gsap.set("#camera-loading-process",{transformOrigin: "center center"});
 gsap.set("#cam-area",{transformOrigin: "center center"});
 gsap.set("#scanner-line-camera",{x:"-4px",y:"-350px", transfromOrigin: "center center"});
+gsap.set("#clip-img",{x:"-=120",y:"-=150"});
+gsap.set("#scan-text-cam",{x:"-=47",y:"+=10"});
+gsap.set("#lp-box-scanned",{x:"+=25",y:"-=30"});
+gsap.set("#forward",{y:"-=50"});
+gsap.set("#result-text",{y:"+=80"});
+gsap.set("#fwd-bar",{scaleX:0,transformOrigin:"center left"});
+gsap.set("#black-rec-7",{x:"-=100",y:"+=50",scaleX:0});
 
 
 screen4TL
@@ -48,4 +55,30 @@ screen4TL
 .to("#camera-loading-process",{duration:.5,scale:0,opacity:0,ease:"power2.in"},"click8")
 .from("#cam-area",{duration:1,scale:0,opacity:0,ease:"power2.out"},"click9")
 .fromTo("#cam-area",{opacity: 0},{duration:.25, opacity:1,repeat: 2},"click91")
-.from("#scanner-line-camera",{duration:.5, drawSVG:"50% 50%",opacity:0},"click91")
+.to("#clip-img",{duration:1, x:"+=700"},"click91")
+.from("#scanner-line-camera",{duration:.5, drawSVG:"50% 50%",opacity:0},"click92")
+
+.to("#scanner-line-camera",{duration:2, y:"+=360",ease:"power3.out"},"click93StartScan")
+.from("#scan-boxes",{duration:.25,opacity:0},"-=1.65")
+.fromTo("#lp-scan",{opacity: 0},{duration:.25, opacity:1,repeat: 2},"-=1.4")
+.fromTo("#scan-text-cam",{opacity: 0},{duration:.25, opacity:1,repeat: 2},"-=.5")
+
+.to("#clip-img",{duration:2, y:"-=400"},"click94")
+.to("#scanner-line-camera",{duration:1, drawSVG:"50% 50%",opacity:0},"click94")
+.to("#scan-text-cam",{duration:.5, opacity:0},"click94")
+.to("#scan-boxes",{duration:.5, opacity:0},"-=1")
+.to("#cam-area",{duration:1,scale:0,opacity:0,ease:"power2.out"},"click95")
+.to("#lp-scan",{duration:1,scale:1.5,y:"-=40",x:"-=250",ease:"power2.out"},"click95")
+.from("#fwd-load-box",{duration:1, drawSVG:0,opacity:0},"click95")
+
+.fromTo("#fwd-text",{opacity: 0},{duration:.5, opacity:1,repeat: 3},"click96")
+.to("#fwd-bar",{duration:1,scaleX:2.3},"click96")
+.to("#fwd-bar",{duration:.25,fill:"#65D8F1"},"-=1")
+.from("#fwd-check",{duration:.25,drawSVG:0,ease:"none"},"-=1")
+.from("#lp-box-scanned",{duration: .5,drawSVG:"80% 80%",ease: "power2.out"},"click96")
+
+.to("#lp-box-scanned, #lp-scan",{duration:1,x:"+=225",y:"+=20",ease: "power2.out"},"click97")
+.to("#fwd-group-s",{duration:.5,x:"-=125",y:"-=40",opacity: 0,ease: "power2.out"},"click97")
+.to("#black-rec-7",{duration:1.5,scaleX:2.5,ease: "power2.out"},"-=1")
+.fromTo("#lp-scan, #lp-box-scanned",{opacity: 1},{duration:.2, opacity:0,repeat: 2},"-=.55")
+.to("#lp-box-scanned, #lp-scan",{opacity:1},"-=.15")
