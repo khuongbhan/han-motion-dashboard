@@ -38,25 +38,13 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/design/rocket-illustration.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/design/rocket-illustration.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/design/testing.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/design/testing.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
+	"/design/han-dashboard-design.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/design/han-dashboard-design.sketch",
+		"oF": 0
 		},
 	"/dev/content/svg-container.kit": {
 		"cB": 0,
