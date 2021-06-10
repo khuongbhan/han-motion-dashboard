@@ -10,7 +10,7 @@ gsap.set("#cam-opening-text",{transformOrigin: "center center"});
 gsap.set("#camera-loading",{transformOrigin: "center center"});
 gsap.set("#camera-loading-process",{transformOrigin: "center center"});
 gsap.set("#cam-area",{transformOrigin: "center center"});
-gsap.set("#scanner-line-camera",{x:"-4px",y:"-350px", transfromOrigin: "center center"});
+gsap.set("#scanner-line-camera",{x:"-4px",y:"-350px", transformOrigin: "center center"});
 gsap.set("#clip-img",{x:"-=120",y:"-=150"});
 gsap.set("#scan-text-cam",{x:"-=47",y:"+=10"});
 gsap.set("#lp-box-scanned",{x:"+=25",y:"-=30"});
@@ -80,5 +80,6 @@ screen4TL
 .to("#lp-box-scanned, #lp-scan",{duration:1,x:"+=225",y:"+=20",ease: "power2.out"},"click97")
 .to("#fwd-group-s",{duration:.5,x:"-=125",y:"-=40",opacity: 0,ease: "power2.out"},"click97")
 .to("#black-rec-7",{duration:1.5,scaleX:2.5,ease: "power2.out"},"-=1")
-.fromTo("#lp-scan, #lp-box-scanned",{opacity: 1},{duration:.2, opacity:0,repeat: 2},"-=.55")
+.fromTo("#lp-scan, #lp-box-scanned",{opacity: 0},{duration:.2, opacity:1,repeat: 2},"-=.55")
+// .fromTo("#lp-scan, #lp-box-scanned",{opacity: 1},{duration:.2, opacity:0,repeat: 2},"-=.55")
 .to("#lp-box-scanned, #lp-scan",{opacity:1},"-=.15")

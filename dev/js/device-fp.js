@@ -9,11 +9,11 @@ export let screen2TL = gsap.timeline();
 gsap.set("#device-process",{transformOrigin:"center center"});
 gsap.set("#porsche-o",{transformOrigin:"center center"});
 gsap.set("#black-rec-1",{transformOrigin:"bottom right"});
-gsap.set("#scanner-line-device",{y:"-550px", transfromOrigin: "center center"});
-gsap.set("#insert-device",{y:"150px", transfromOrigin: "center center"});
-gsap.set("#porsche-c",{transfromOrigin: "center center"});
-gsap.set("#finger-in",{transfromOrigin: "center center"});
-gsap.set("#finger-done",{transfromOrigin: "center center", y:"+=180"});
+gsap.set("#scanner-line-device",{y:"-550px", transformOrigin: "center center"});
+gsap.set("#insert-device",{y:"150px", transformOrigin: "center center"});
+gsap.set("#porsche-c",{transformOrigin: "center center"});
+gsap.set("#finger-in",{transformOrigin: "center center"});
+gsap.set("#finger-done",{transformOrigin: "center center", y:"+=180"});
 // gsap.set("#finger-circle",{transfromOrigin: "center center", x:"200px",y:"-50px"});
 
 
